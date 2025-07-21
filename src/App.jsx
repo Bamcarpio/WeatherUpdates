@@ -610,7 +610,7 @@ const SafetyBeacon = ({ userLat, userLon }) => {
     if (contactNumber) {
       message += ` Please contact me at: ${contactNumber}.`;
     }
-    message += ` #PhilippinesCrisis #SafetyBeacon`;
+    message += ``;
     setGeneratedMessage(message);
     setCopySuccess('');
   };
